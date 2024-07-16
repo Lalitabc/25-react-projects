@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.header{
+    background-color: #0d0221;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    height: 5rem;
+    line-height: 5rem; 
+}
+.choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    width: 160px;
+    border: 0.02px solid rgb(48, 43, 43);
+    border-radius: 50%;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0 0 9px 0.5px rgb(50, 25, 25);
+}
+.choice:hover{
+    border: 0.02px solid rgb(2, 2, 23);
+    box-shadow: 0 0 15px 0.5px rgb(2, 2, 23);
+}
+.rps{
+    display: flex;
+    gap: 3rem;
+    /* margin-top: -7rem; */
+}
+.img{
+    height: 158px;
+    width: 158px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.winnerCount{
+    display: flex;
+    gap: 2rem;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: -1rem;
+}
+.userWinCount{
+    text-align: center;
+}
+.compWinCount{
+    
+    text-align: center;
+}
+.displayWin{
+    background-color: black;
+    color: #fff;
+    font-size: 50px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 17px;
+}
+
+.winAndreset{
+    margin-bottom: 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+   
+
+}
+.reset{
+    font-size: 30px;
+    cursor: pointer;
+    padding: 5px;
+ 
+}
+
+.userWinActive{
+    background-color: green;
+
+}
+.compWinActive{
+    background-color: red;
+}
+.drawActive{
+    background-color: black;
+}
+.startGameActive{
+    background-color:  #0d0221;
+}
+
+@media (max-width:600px){
+    .choice{
+        height: 120px;
+        width: 120px;
+    }
+
+    .img{
+        height: 118px;
+        width: 118px;
+    }
+    .rps{
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        
+    }
+    
+}

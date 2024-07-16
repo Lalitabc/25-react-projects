@@ -1,0 +1,44 @@
+ 
+
+.wrapper {
+    text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   flex-direction: column;
+   gap: 20px;
+}
+button{
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    background-color: black;
+
+}
+.item{
+    border: 1px solid black;   
+    cursor: pointer;
+
+    background-color: rgb(202, 189, 9);
+}
+
+.accordian{
+    width: 700px;
+    height: auto;
+    
+   
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    
+
+}
+.title span{
+    font-weight: 900;
+}

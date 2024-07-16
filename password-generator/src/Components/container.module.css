@@ -1,0 +1,14 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ 
+.container{
+    background-color: rgb(100, 81, 208);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

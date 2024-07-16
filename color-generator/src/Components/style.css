@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+    width: 100vw;
+    background-color: green;
+    gap: 5px;
+}
+.displayColor{
+    background-color: red;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.displayColor h1{
+    font-size: 90px;
+}
+.buttons button{
+    color: red;
+    cursor: pointer;
+    font-size: 30px;
+    margin: 10px;
+}
